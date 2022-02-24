@@ -49,19 +49,23 @@ body{
 .img-container{
     background-color: darkslateblue;
     margin-top: 100px;
-    padding: 50px;
+    padding: 20px;
 }
-/* .second-wrapper{
+.second-wrapper{
     display: flex;
-} */
+    justify-content: center;
+}
 .subtext{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+
 }
 .nav-img{
     display: flex;
     list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
 }
 .footer{
     display: flex;
