@@ -1,8 +1,17 @@
+html,body{
+   margin:0;
+padding:0;
+
+}
 body{
     display: flex;
-
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .second-container{
     display: flex;
     flex-direction: column;
@@ -17,36 +26,61 @@ body{
     font-size: 36px;
 }
 .header-container{
-    margin: 0;
-    padding: 0;
-    color: black;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
+
    
 
 }
 .wrapper{
-    display:flex
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 ul{
     display:flex;
     list-style: none;
-    gap: 36px;
+
 }
-.large-img{
-height: 200px;
-border: 5px solid red;
-width: 400px;
+.nav-header{
+    gap:20px;
 }
+
+
 .second-header{
     text-align: center;
     font-weight: 1000;
     font-size: 36px;
+    padding: 20px;
 
 }
 .second-wrapper{
     display: flex;
+    margin-top: 100px;
     flex-direction: column;
-    flex-grow: 1;
+    background-color: darkslateblue;
+ 
+
+}
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+} 
+.quote{
+    text-align: center;
+    background-color: cadetblue;
+    font-size: 30px;
+    padding: 100px;
+}
+.author{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: right;
 }
