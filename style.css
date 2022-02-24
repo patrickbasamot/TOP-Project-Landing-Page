@@ -1,4 +1,6 @@
 body{
+    display: flex;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .second-container{
@@ -21,6 +23,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
+   
 
 }
 .wrapper{
@@ -34,5 +37,16 @@ ul{
 .large-img{
 height: 200px;
 border: 5px solid red;
-width: 350px;
+width: 400px;
+}
+.second-header{
+    text-align: center;
+    font-weight: 1000;
+    font-size: 36px;
+
+}
+.second-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
