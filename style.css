@@ -4,18 +4,13 @@ padding:0;
 
 }
 body{
-    display: flex;
     margin: 0;
     padding: 0;
     color: white;
     background-color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
-.second-container{
-    display: flex;
-    flex-direction: column;
-}
 .header{
     font-weight: 1000;
     font-size: 36px;
@@ -30,9 +25,6 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-
-   
-
 }
 .wrapper{
     display:flex;
@@ -40,13 +32,10 @@ body{
     justify-content: center;
     
 }
-ul{
-    display:flex;
-    list-style: none;
-
-}
 .nav-header{
     gap:20px;
+    display:flex;
+    list-style: none;
 }
 
 
@@ -57,13 +46,22 @@ ul{
     padding: 20px;
 
 }
-.second-wrapper{
-    display: flex;
-    margin-top: 100px;
-    flex-direction: column;
+.img-container{
     background-color: darkslateblue;
- 
-
+    margin-top: 100px;
+    padding: 50px;
+}
+/* .second-wrapper{
+    display: flex;
+} */
+.subtext{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.nav-img{
+    display: flex;
+    list-style: none;
 }
 .footer{
     display: flex;
@@ -73,12 +71,14 @@ ul{
     color: white;
     font-size: 20px;
 } 
+
 .quote{
     text-align: center;
     background-color: cadetblue;
     font-size: 30px;
     padding: 100px;
 }
+
 .author{
     font-size: 20px;
     font-weight: bolder;
