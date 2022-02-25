@@ -73,6 +73,7 @@ margin-top: 100px;
 .subtext{
     display: flex;
     flex-direction: column;
+    /* justify-content: space-around; */
 
 }
 .nav-img{
@@ -88,7 +89,7 @@ p{
 }
 
 .gifs{
-    width: 200px;
+    width: 220px;
 }
 .footer{
     display: flex;
